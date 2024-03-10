@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<CapitalExpenses name="THE NAME OF ACCOUNT">	<Year value="2002">		<Month value="7">			<Expenses name="Vuokra">118,50</Expenses>
+			<Expenses name="Other">200				<Comment>Lasten rattaat</Comment>
+</Expenses>
+</Month>
+</Year>
+	<ViewList>		<View name="Default">			<Group name="Koti">				<Item name="Kotitalous"></Item>
+				<Group name="Vuokra">					<Item name="Vastike"></Item>
+					<Item name="Vuokra"></Item>
+					<Item name="Asuntolaina"></Item>
+					<Item name="Vesi"></Item>
+</Group>
+</Group>
+</View>
+</ViewList>
+</CapitalExpenses>
+

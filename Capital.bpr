@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Capital.exe"/>
+    <OBJFILES value="Capital.obj mainform.obj aboutform.obj createaccountform.obj account.obj 
+      wstr.obj loginaccountform.obj"/>
+    <RESFILES value="Capital.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) mainform.dfm aboutform.dfm createaccountform.dfm 
+      loginaccountform.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="bcbie.lib xmlrtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib bcbsmp.lib vclx.lib xmlrtl.lib inet.lib bcbie.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi vcljpg.bpi dsnap.bpi dbrtl.bpi vcldb.bpi 
+      bdertl.bpi bcbsmp.bpi ibsmp.bpi vcldbx.bpi qrpt.bpi teeui.bpi teedb.bpi 
+      tee.bpi dss.bpi nmfast.bpi inetdb.bpi inet.bpi dclocx.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;_VIS_NOLIB;USEPACKAGES"/>
+    <MAINSOURCE value="Capital.cpp"/>
+    <INCLUDEPATH value="C:\Ohjelmatiedostot\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="C:\Ohjelmatiedostot\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+    <WARNOPTSTR value=""/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-IC:\Ohjelmatiedostot\Borland\CBuilder6\Projects -I$(BCB)\include 
+      -I$(BCB)\include\vcl -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=c:\OHJELM~1\BORLAND\CBUILD~1\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 
+      -b- -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Capital.cpp" FORMNAME="" UNITNAME="Capital" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Capital.res" FORMNAME="" UNITNAME="Capital" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="mainform.cpp" FORMNAME="MainBox" UNITNAME="mainform" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="aboutform.cpp" FORMNAME="AboutBox" UNITNAME="aboutform" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="createaccountform.cpp" FORMNAME="CreateAccountBox" UNITNAME="createaccountform" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="account.cpp" FORMNAME="" UNITNAME="account" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="wstr.cpp" FORMNAME="" UNITNAME="wstr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="loginaccountform.cpp" FORMNAME="LoginAccountBox" UNITNAME="loginaccountform" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=3
+MinorVer=0
+Release=0
+Build=0
+Debug=1
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=KOLRH®
+FileDescription=
+FileVersion=3.0.0.0
+InternalName=
+LegalCopyright=Copyright ©2002, KOLRH®
+LegalTrademarks=KOLRH® is a trademark, which all rights are reserver to Bukowski Lev
+OriginalFilename=
+ProductName=Capital for Windows
+ProductVersion=Debug Revision
+Comments=Used components:
+
+[HistoryLists\hlIncludePath]
+Count=5
+Item0=$(BCB)\include;$(BCB)\include\vcl
+Item1=..\..\Program Files\Borland\CBuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl;..\xerces-bin\include
+Item2=$(BCB)\include;$(BCB)\include\vcl;..\xerces-bin\include
+Item3=..\..\PROGRAM FILES\BORLAND\CBUILDER4\OBJREPOS;..\..\Program Files\Borland\CBuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl;..\xerces-bin\include
+Item4=$(BCB)\include;$(BCB)\include\vcl;C:\Projects\xerces-bin\include
+
+[HistoryLists\hlLibraryPath]
+Count=5
+Item0=$(BCB)\lib\obj;$(BCB)\lib
+Item1=..\..\Program Files\Borland\CBuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib;..\xerces-bin\lib
+Item2=$(BCB)\lib\obj;$(BCB)\lib;..\xerces-bin\lib
+Item3=..\..\PROGRAM FILES\BORLAND\CBUILDER4\OBJREPOS;..\..\Program Files\Borland\CBuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib;..\xerces-bin\lib
+Item4=$(BCB)\lib\obj;$(BCB)\lib;C:\Projects\xerces-bin\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
